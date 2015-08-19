@@ -50,8 +50,14 @@ The username and password will be `vagrant\vagrant` NOTE: IF you are a Windows 1
 
 # Customization
 
-The easiestthing to customize on this is which software gets installed with the machine installation the `scripts/chocolately.bat` file contains all the packages that get installed by Chocolately when Packer builds the image.  I am copying some config files in the Packer provisioner, which you can change and/or replace with others that would suit your needs.
+The easiest thing to customize on this is which software gets installed with the machine installation the `scripts/chocolately.bat` file contains all the packages that get installed by Chocolately when Packer builds the image.  I am copying some config files in the Packer provisioner, which you can change and/or replace with others that would suit your needs.
 
+# Gotchas
+
+I was getting some WinRM errors when running this at first, I was able to get around this by installing a plugin, so this command may need to be run before the vagrant up command if you get errors
+````
+vagrant plugin install winrm-fs
+````
 
 
 
