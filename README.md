@@ -10,7 +10,7 @@ I created this project because i wanted to try some Windows 10 / Visual Studio 2
 - [Vagrant](http://vagrantup.com/)
 
 # How To
-Directions are assuming a Windows host environment and using VirtualBox for virtualization.  I have tried it successfully on Windows 7 and Windows 10 ( Other environments are possible but I haven't personally done it.)All steps can be performed via command line, and assume you don't have any previous software installed.
+Directions are assuming a Windows host environment and using VirtualBox for virtualization.  I have tried it successfully on Windows 7 and Windows 10 (Other environments are possible but I haven't personally done it.) All steps can be performed via command line, and assume you don't have any previous software installed.
 
 # Steps
 * Install [Chocolatey](http://chocolatey.org/).
@@ -46,7 +46,7 @@ It *SHOULD* be up and running at this point. If you would like to Remote into it
 ````
 vagrant rdp
 ````
-The username and password will be `vagrant/vagrant` NOTE: IF you are a Windows 10 host the login name may be `LocalAccount\vagrant`
+The username and password will be `vagrant\vagrant` NOTE: IF you are a Windows 10 host the login name may be `LocalAccount\vagrant`
 
 # Customization
 
