@@ -1,0 +1,24 @@
+"*":
+  welcome:
+    showOnStartup: false
+  editor:
+    fontFamily: "Consolas"
+    useHardwareAcceleration: true
+    invisibles: {}
+    useShadowDOM: false
+    showIndentGuide: true
+    fontSize: 18
+  core:
+    themes: [
+      "seti-ui"
+      "monokai"
+    ]
+  "recent-files":
+    updated: false
+  minimap:
+    plugins:
+      "find-and-replace": true
+      "git-diff": true
+    showIconsInEditorGutter: true
+  "git-diff": {}
+  emmet: {}
