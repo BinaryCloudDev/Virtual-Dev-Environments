@@ -6,6 +6,7 @@ I created this project because i wanted to try some Windows 10 / Visual Studio 2
 
 # Techologies Used
 
+- [Chocolatey](http://chocolatey.org/)
 - [Packer](http://packer.io/)
 - [Vagrant](http://vagrantup.com/)
 
