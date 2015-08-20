@@ -1,5 +1,5 @@
 # Virtual-Dev-Environments
-scripts &amp; configs for starting up VirtualBox environments with packer &amp; vagrant
+scripts &amp; configs for starting up Windows VirtualBox environments with packer &amp; vagrant
 
 # Introduction
 I created this project because i wanted to try some Windows 10 / Visual Studio 2015 features on my Windows 7 Machine.  Also has an exercise to learn functionality of packer and vagrant.  This will build a personal development environment tailored to me, but it can be customized for your needs.  The source of most of this info is the [packer-windows](http://github.com/joefitzgerald/packer-windows) repo.  I have just stripped down most of it to pertain to Windows 10 and Virtual Box
