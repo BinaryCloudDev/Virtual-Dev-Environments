@@ -47,7 +47,7 @@ It *SHOULD* be up and running at this point. If you would like to Remote into it
 ````
 vagrant rdp
 ````
-The username and password will be `vagrant\vagrant` NOTE: IF you are a Windows 10 host the login name may be `LocalAccount\vagrant`
+The username and password will be `vagrant\vagrant` NOTE: IF you are a Windows 10 host you may need to specify `LocalAccount\vagrant`
 
 # Customization
 
